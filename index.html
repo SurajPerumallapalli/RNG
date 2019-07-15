@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Click here for random number.</p>
+<button onclick="createRN()">New RN</button>
+<p id="debug"></p>
+<script>
+function createRN() {
+  document.getElementById("debug").innerHTML = Math.floor((Math.random() * 100) + 1);;
+}
+</script>
+</body>
+</html>
